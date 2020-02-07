@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,88 +21,136 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="97" translatesAutoresizingMaskIntoConstraints="NO" id="mni-gS-ygk">
-                                <rect key="frame" x="47" y="203" width="320" height="22.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1K-mv-oW4">
-                                        <rect key="frame" x="0.0" y="0.0" width="42" height="22.5"/>
-                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="di8-kD-vde">
-                                        <rect key="frame" x="139" y="0.0" width="42" height="22.5"/>
-                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlk-e7-ibm">
-                                        <rect key="frame" x="278" y="0.0" width="42" height="22.5"/>
-                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="eyw-6i-HS8">
-                                <rect key="frame" x="47" y="94" width="321" height="55"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2h-wj-CVB">
-                                        <rect key="frame" x="0.0" y="11" width="80" height="34"/>
-                                        <color key="backgroundColor" red="0.45112848280000001" green="0.79585307839999997" blue="0.90015488860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="16"/>
-                                        <state key="normal" title="Dashboard">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="45"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEV-yu-t7y">
-                                        <rect key="frame" x="135" y="11" width="72" height="34"/>
-                                        <color key="backgroundColor" red="0.45112848280000001" green="0.79585307839999997" blue="0.90015488860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="16"/>
-                                        <state key="normal" title="Messages">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="45"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CGB-SG-vHU">
-                                        <rect key="frame" x="262" y="0.0" width="59" height="55"/>
-                                        <color key="backgroundColor" red="0.45112848280000001" green="0.79585307839999997" blue="0.90015488860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="16"/>
-                                        <state key="normal">
-                                            <string key="title">Patient  Data</string>
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="45"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                </subviews>
-                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ct2-1L-qw8">
+                                <rect key="frame" x="296" y="104" width="85" height="85"/>
+                                <color key="backgroundColor" red="0.35262623430000001" green="0.67091894149999998" blue="0.84967118500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="405-Jp-ETD"/>
+                                    <constraint firstAttribute="height" constant="85" id="aqv-6C-WSD"/>
+                                </constraints>
+                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Patient Data">
+                                            <attributes>
+                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <font key="NSFont" size="15" name="EuphemiaUCAS"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="42.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rIF-KK-Ime">
+                                <rect key="frame" x="165" y="104" width="85" height="85"/>
+                                <color key="backgroundColor" red="0.25828310850000002" green="0.66780549290000002" blue="0.87086325880000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="0hK-9N-Zyg"/>
+                                    <constraint firstAttribute="height" constant="85" id="FzE-Gh-VIJ"/>
+                                </constraints>
+                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Messages">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="EuphemiaUCAS"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="42.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hb7-Pa-chV">
+                                <rect key="frame" x="34" y="104" width="85" height="85"/>
+                                <color key="backgroundColor" red="0.25828310850000002" green="0.66780549290000002" blue="0.87086325880000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="SLZ-Sc-0z5"/>
+                                    <constraint firstAttribute="width" constant="85" id="Zfx-cl-pAV"/>
+                                </constraints>
+                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Dashboard">
+                                            <attributes>
+                                                <font key="NSFont" size="15" name="EuphemiaUCAS"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="42.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1e-xh-TwT">
+                                <rect key="frame" x="30" y="206" width="93" height="19"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucu-dg-OX6">
+                                <rect key="frame" x="186" y="206" width="47" height="19"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcZ-dh-Onu">
+                                <rect key="frame" x="284" y="206" width="110" height="19"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LgF-k9-2pI">
+                                <rect key="frame" x="28" y="233" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nyB-yf-Rbl">
+                                <rect key="frame" x="159" y="233" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xao-7Z-A0e">
+                                <rect key="frame" x="290" y="233" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.85085237030000005" green="0.95047730210000003" blue="0.97811275720000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="rIF-KK-Ime" firstAttribute="top" secondItem="ukx-04-b5F" secondAttribute="bottom" constant="30.5" id="1kp-H5-fjv"/>
+                            <constraint firstItem="rIF-KK-Ime" firstAttribute="leading" secondItem="hb7-Pa-chV" secondAttribute="trailing" constant="46" id="2sa-OP-6EE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ukx-04-b5F" secondAttribute="trailing" constant="68" id="89N-eW-TFt"/>
                             <constraint firstItem="ukx-04-b5F" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9b9-h5-hFj"/>
-                            <constraint firstItem="mni-gS-ygk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="Dt3-Hj-eTD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mni-gS-ygk" secondAttribute="trailing" constant="47" id="Hnx-Hh-2b6"/>
-                            <constraint firstItem="eyw-6i-HS8" firstAttribute="top" secondItem="ukx-04-b5F" secondAttribute="bottom" constant="20.5" id="f5D-KX-h6Z"/>
-                            <constraint firstItem="eyw-6i-HS8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="kJj-Ob-Cc3"/>
+                            <constraint firstItem="HcZ-dh-Onu" firstAttribute="top" secondItem="Ct2-1L-qw8" secondAttribute="bottom" constant="17" id="AVX-ZO-TQa"/>
+                            <constraint firstItem="hb7-Pa-chV" firstAttribute="top" secondItem="ukx-04-b5F" secondAttribute="bottom" constant="30.5" id="SJX-Zq-IoF"/>
+                            <constraint firstItem="Q1e-xh-TwT" firstAttribute="top" secondItem="hb7-Pa-chV" secondAttribute="bottom" constant="17" id="VQT-V9-ld1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HcZ-dh-Onu" secondAttribute="trailing" constant="20" id="cVb-Jd-MK3"/>
+                            <constraint firstItem="Ct2-1L-qw8" firstAttribute="top" secondItem="ukx-04-b5F" secondAttribute="bottom" constant="30.5" id="dou-kx-vQx"/>
+                            <constraint firstItem="Ucu-dg-OX6" firstAttribute="top" secondItem="rIF-KK-Ime" secondAttribute="bottom" constant="17" id="fYD-44-UHv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ct2-1L-qw8" secondAttribute="trailing" constant="33" id="kUP-Mg-yu5"/>
                             <constraint firstItem="ukx-04-b5F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="lLt-9a-oJ0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eyw-6i-HS8" secondAttribute="trailing" constant="46" id="pJV-EK-Ee0"/>
+                            <constraint firstItem="HcZ-dh-Onu" firstAttribute="leading" secondItem="Ucu-dg-OX6" secondAttribute="trailing" constant="51" id="ojD-bk-MYY"/>
+                            <constraint firstItem="Ucu-dg-OX6" firstAttribute="leading" secondItem="Q1e-xh-TwT" secondAttribute="trailing" constant="63" id="qro-i9-8Xk"/>
+                            <constraint firstItem="Q1e-xh-TwT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="sXj-tn-gCh"/>
+                            <constraint firstItem="Ct2-1L-qw8" firstAttribute="leading" secondItem="rIF-KK-Ime" secondAttribute="trailing" constant="46" id="wvQ-oU-46L"/>
+                            <constraint firstItem="hb7-Pa-chV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="z49-YD-ebs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
