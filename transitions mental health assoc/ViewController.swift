@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //must scrape data from website to input into the table cells
+    //CELLS -> text info, image
+    //give buttons functionality
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
