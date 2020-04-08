@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0907DA92243D74E000845D96 /* dashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907DA91243D74E000845D96 /* dashboardViewController.swift */; };
 		09422EAD23C547EC00318C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09422EAC23C547EC00318C03 /* AppDelegate.swift */; };
 		09422EAF23C547EC00318C03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09422EAE23C547EC00318C03 /* SceneDelegate.swift */; };
 		09422EB123C547EC00318C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09422EB023C547EC00318C03 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0907DA91243D74E000845D96 /* dashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardViewController.swift; sourceTree = "<group>"; };
 		09422EA923C547EC00318C03 /* transitions mental health assoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "transitions mental health assoc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09422EAC23C547EC00318C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09422EAE23C547EC00318C03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				09422EB523C547EF00318C03 /* Assets.xcassets */,
 				09422EB723C547EF00318C03 /* LaunchScreen.storyboard */,
 				09422EBA23C547EF00318C03 /* Info.plist */,
+				0907DA91243D74E000845D96 /* dashboardViewController.swift */,
 			);
 			path = "transitions mental health assoc";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				09422EB123C547EC00318C03 /* ViewController.swift in Sources */,
 				09422EAD23C547EC00318C03 /* AppDelegate.swift in Sources */,
 				09422EAF23C547EC00318C03 /* SceneDelegate.swift in Sources */,
+				0907DA92243D74E000845D96 /* dashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
