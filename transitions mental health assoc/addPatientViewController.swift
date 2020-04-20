@@ -72,6 +72,17 @@ class addPatientViewController: UIViewController {
                 }
             }
             task.resume()
+            fnameTextField.text = ""
+            lnameTextField.text = ""
+            birthdayTextField.text = ""
+            locationTextField.text = ""
+            phoneTextField.text = ""
+            emailTextField.text = ""
+            notesTextView.text = ""
+            let alert = UIAlertController(title: "Form Submitted!", message: "form has been submitted successfully", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Done", style: .default, handler: nil))
+            self.present(alert, animated: true)
+            
         } else {
             let alert = UIAlertController(title: "Unfinished form", message: "Please make sure all fields are filled out", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
