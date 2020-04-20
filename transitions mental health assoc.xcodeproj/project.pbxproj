@@ -14,6 +14,7 @@
 		09422EB423C547EC00318C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09422EB223C547EC00318C03 /* Main.storyboard */; };
 		09422EB623C547EF00318C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09422EB523C547EF00318C03 /* Assets.xcassets */; };
 		09422EB923C547EF00318C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09422EB723C547EF00318C03 /* LaunchScreen.storyboard */; };
+		095813BD2446D1F10024DD5C /* addPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095813BC2446D1F10024DD5C /* addPatientViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		09422EB523C547EF00318C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09422EB823C547EF00318C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09422EBA23C547EF00318C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095813BC2446D1F10024DD5C /* addPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPatientViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				09422EB723C547EF00318C03 /* LaunchScreen.storyboard */,
 				09422EBA23C547EF00318C03 /* Info.plist */,
 				0907DA91243D74E000845D96 /* dashboardViewController.swift */,
+				095813BC2446D1F10024DD5C /* addPatientViewController.swift */,
 			);
 			path = "transitions mental health assoc";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				09422EB123C547EC00318C03 /* ViewController.swift in Sources */,
 				09422EAD23C547EC00318C03 /* AppDelegate.swift in Sources */,
+				095813BD2446D1F10024DD5C /* addPatientViewController.swift in Sources */,
 				09422EAF23C547EC00318C03 /* SceneDelegate.swift in Sources */,
 				0907DA92243D74E000845D96 /* dashboardViewController.swift in Sources */,
 			);

@@ -62,7 +62,7 @@ class ViewController: UIViewController {
                 dashboardButton.isSelected = true
                 UIButton.animate(withDuration: 0.3, animations: {self.dashboardButton.backgroundColor = UIColor(red: 0.2588, green: 0.66667, blue: 0.8745, alpha: 1)})
                 let curButton = self.view.viewWithTag(currentButton) as! UIButton
-                UIButton.animate(withDuration: 0.3, animations:{ curButton.backgroundColor = UIColor(red: 0.561, green: 0.7765, blue: 0.8627, alpha: 1)})
+                UIButton.animate(withDuration: 0.3, animations:{ curButton.backgroundColor = UIColor(red: 0.443, green: 0.7843, blue: 0.8941, alpha: 1)})
                 currentButton = 1
             }
         } else if sender.tag == 2 {
@@ -73,7 +73,7 @@ class ViewController: UIViewController {
                 messagesButton.isSelected = true
                 UIButton.animate(withDuration: 0.3, animations: {self.messagesButton.backgroundColor = UIColor(red: 0.2588, green: 0.66667, blue: 0.8745, alpha: 1)})
                 let curButton = self.view.viewWithTag(currentButton) as! UIButton
-               UIButton.animate(withDuration: 0.3, animations:{ curButton.backgroundColor = UIColor(red: 0.561, green: 0.7765, blue: 0.8627, alpha: 1)})
+                UIButton.animate(withDuration: 0.3, animations:{ curButton.backgroundColor = UIColor(red: 0.443, green: 0.7843, blue: 0.8941, alpha: 1)})
                 currentButton = 2
             }
         } else if sender.tag == 3 {
@@ -84,7 +84,7 @@ class ViewController: UIViewController {
                 patientDataButton.isSelected = true
                 UIButton.animate(withDuration: 0.3, animations: {self.patientDataButton.backgroundColor = UIColor(red: 0.2588, green: 0.66667, blue: 0.8745, alpha: 1)})
                 let curButton = self.view.viewWithTag(currentButton) as! UIButton
-                UIButton.animate(withDuration: 0.3, animations:{ curButton.backgroundColor = UIColor(red: 0.561, green: 0.7765, blue: 0.8627, alpha: 1)})
+                UIButton.animate(withDuration: 0.3, animations:{ curButton.backgroundColor = UIColor(red: 0.433, green: 0.7843, blue: 0.8941, alpha: 1)})
                 currentButton = 3
             }
         } else {
